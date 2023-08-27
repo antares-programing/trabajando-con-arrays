@@ -80,7 +80,7 @@ function mostrarFunction(array) {
   showList(functionElements)
 }
 
-stringBtn.addEventListener("click", function () {
+stringBtn.addEventListener("click", ()=> {
   mostrarStrings(strangeArray)
 });
 integerBtn.addEventListener("click", function () {
