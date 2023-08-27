@@ -1,0 +1,100 @@
+body{
+    background-image: url("../img/BGimage.png");
+    background-repeat: no-repeat, repeat;
+	background-size:cover;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background: #92929281;
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: rgb(67, 67, 100);
+    box-shadow:
+    inset 0 0 50px #fff,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+}
+#reducer{
+    transform: scale(80%);
+}
+.containerCenter{
+    display:flex;
+	align-items: center;
+    justify-content: center;
+}
+#imageContainer{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    margin: -24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#floor{
+    position: fixed;
+    height: 180px;
+    left: 0%;
+    right: 0%;
+    bottom:0vi;
+    background-image: url("../img/Floor.png");
+    background-repeat: no-repeat, repeat;
+	background-size:cover;
+    display: flex;
+    align-items:end;
+    justify-content: right;
+    align-content: end;
+    border-top-style: ridge;
+    border-top-color: rgb(67, 67, 100);
+}
+#desk{
+    position: absolute;
+}
+#shadow{
+    transform: rotate(10deg);
+    height: 150px;
+}
+#stringChart{
+    position: absolute;
+    height: 200px;
+    bottom: 50px;
+    left: 20px;
+}
+#intChart{
+    position: absolute;
+    width: 220px;
+    left: 20px;
+    bottom: 250px;
+}
+.chart:hover{
+    filter: opacity(50%);
+}
+#arrayChart{
+    position: absolute;
+    width: 220px;
+    left: 20px;
+    bottom: 360px;
+}
+#functionChart{
+    position: absolute;
+    width: 220px;
+    left: 20px;
+    bottom: 470px;
+}
+#infoChart{
+    position: absolute;
+    width: 360px;
+    left: 20px;
+    bottom: 580px;
+}
